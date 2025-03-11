@@ -1,0 +1,69 @@
+---
+description: Python best practices for your project.
+globs: *.py
+alwaysApply: true
+---
+
+# Python Style Guidelines
+
+## Code Formatting
+- Follow PEP 8 style guidelines
+- Use 4 spaces for indentation (not tabs)
+- Limit lines to 88 characters (Black formatter standard)
+- Use consistent naming conventions:
+  - `snake_case` for variables and functions
+  - `PascalCase` for classes
+  - `UPPER_CASE` for constants
+
+## Documentation
+- Use docstrings for all functions, classes, and modules
+- Follow Google-style docstring format
+- Include type hints for function parameters and return values
+- Document complex algorithms with inline comments
+
+## Imports
+- Group imports in the following order:
+  1. Standard library imports
+  2. Third-party library imports
+  3. Local application imports
+- Sort imports alphabetically within each group
+- Use absolute imports rather than relative imports when possible
+
+## Error Handling
+- Use specific exception types instead of catching all exceptions
+- Provide meaningful error messages
+- Log exceptions with appropriate context
+- Clean up resources in finally blocks or use context managers
+
+## Testing
+- Write unit tests for all functions and classes
+- Use pytest for testing
+- Aim for high test coverage
+- Use fixtures and parametrization for test reuse 
+
+# Python Best Practices
+
+## Error Handling
+- Use specific exception types rather than catching all exceptions
+- Log exceptions with context information
+- Handle edge cases explicitly
+- Use context managers (`with` statements) for resource management
+
+## Asynchronous Programming
+- Use `asyncio` for I/O-bound operations
+- Avoid blocking the event loop with CPU-intensive tasks
+- Use `asyncio.gather()` for concurrent tasks
+- Handle exceptions in async code properly
+
+## Testing
+- Write unit tests for all critical functions
+- Use pytest for testing
+- Mock external dependencies in tests
+- Test edge cases and error conditions
+
+## Security
+- Never hardcode sensitive information (API keys, secrets)
+- Use environment variables or secure configuration files
+- Validate all input data
+- Implement proper error handling for API calls 
+

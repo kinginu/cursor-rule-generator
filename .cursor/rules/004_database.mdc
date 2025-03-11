@@ -1,0 +1,40 @@
+---
+description: Database best practices and guidelines for your project.
+globs: *.sql, *db*.py
+alwaysApply: false
+---
+
+# Database Best Practices
+
+## Database Design
+- Normalize database schema to reduce redundancy
+- Use appropriate data types for columns
+- Define primary keys for all tables
+- Use foreign keys to maintain referential integrity
+- Create indexes for frequently queried columns
+- Use consistent naming conventions for tables and columns
+
+## SQL Queries
+- Write specific queries instead of selecting all columns
+- Use parameterized queries to prevent SQL injection
+- Avoid using ORMs for complex queries that require optimization
+- Use transactions for operations that require atomicity
+- Limit result sets to prevent memory issues
+- Use appropriate joins instead of multiple queries
+
+## Database Security
+- Use strong authentication for database access
+- Implement least privilege principle for database users
+- Encrypt sensitive data at rest
+- Regularly audit database access
+- Use connection pooling for efficient resource usage
+- Implement proper error handling to avoid leaking information
+
+## Performance Optimization
+- Regularly analyze and optimize slow queries
+- Use database-specific optimization features
+- Consider denormalization for read-heavy workloads
+- Implement caching strategies for frequently accessed data
+- Use database partitioning for large tables
+- Schedule maintenance operations during low-traffic periods 
+

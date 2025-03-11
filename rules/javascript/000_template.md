@@ -1,0 +1,9 @@
+# Javascript Guidelines
+
+## Best Practices
+- Add your best practices here
+- Each rule should be clear and specific
+
+## Conventions
+- Add your conventions here
+- Be consistent with your style guidelines

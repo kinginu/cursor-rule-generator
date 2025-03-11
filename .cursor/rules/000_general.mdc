@@ -1,0 +1,74 @@
+---
+description: General instructions for your project. Always refer to this file first.
+globs: *
+alwaysApply: true
+---
+
+# Project Guidelines
+
+## Project Overview
+This section should contain a brief overview of your project:
+- What problem does it solve?
+- What are the main features?
+- Who is the target audience?
+- What technologies are used?
+
+## Project Structure
+- `main.py`: Entry point for your application
+- `config.py`: Configuration settings
+- `utils/`: Utility functions and helpers
+- `models/`: Data models and business logic
+- `services/`: External service integrations
+- `tests/`: Unit and integration tests
+
+## Communication Style
+- Be concise and clear in your explanations
+- Provide code examples when relevant
+- When suggesting changes, explain the reasoning behind them
+- Use consistent coding style in all code suggestions
+
+# Development Workflow
+
+## Code Review Guidelines
+- Review code for clarity, maintainability, and adherence to project standards
+- Look for potential bugs, edge cases, and performance issues
+- Provide constructive feedback with explanations
+- Suggest improvements rather than just pointing out problems
+
+## Version Control Practices
+- Use descriptive commit messages that explain the "why" not just the "what"
+- Keep commits focused on a single logical change
+- Create feature branches for new development
+- Regularly rebase or merge from the main branch
+- Use pull/merge requests for code reviews
+
+## Testing Requirements
+- Write tests for all new features and bug fixes
+- Ensure tests cover both happy paths and edge cases
+- Run the full test suite before submitting code for review
+- Maintain or improve code coverage with each change
+
+## Documentation
+- Update documentation when changing functionality
+- Document public APIs, functions, and classes
+- Include examples in documentation when helpful
+- Keep README and other project documentation up to date
+
+## Code Modification Process
+1. Understand the existing code structure before making changes
+2. Make incremental changes with clear purposes
+3. Test changes thoroughly before committing
+4. Document all significant changes
+
+## Debugging Guidelines
+- Use logging extensively for debugging
+- Check exchange API responses carefully
+- Verify calculations with manual examples
+- Test with small amounts before deploying with larger amounts
+
+## Performance Considerations
+- Optimize network requests to reduce latency
+- Use efficient data structures for orderbook processing
+- Consider async operations for I/O-bound tasks
+- Profile code to identify bottlenecks 
+

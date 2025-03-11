@@ -1,0 +1,32 @@
+[
+  {
+    "output": ".cursor/rules/000_general.mdc",
+    "source_dir": "rules/general",
+    "header": "---\ndescription: General instructions for your project. Always refer to this file first.\nglobs: *\nalwaysApply: true\n---\n\n",
+    "file_pattern": "*.md"
+  },
+  {
+    "output": ".cursor/rules/001_python_best_practices.mdc",
+    "source_dir": "rules/python",
+    "header": "---\ndescription: Python best practices for your project.\nglobs: *.py\nalwaysApply: true\n---\n\n",
+    "file_pattern": "*.md"
+  },
+  {
+    "output": ".cursor/rules/002_javascript_best_practices.mdc",
+    "source_dir": "rules/javascript",
+    "header": "---\ndescription: JavaScript best practices for your project.\nglobs: *.js, *.jsx, *.ts, *.tsx\nalwaysApply: false\n---\n\n",
+    "file_pattern": "*.md"
+  },
+  {
+    "output": ".cursor/rules/003_web_development.mdc",
+    "source_dir": "rules/web",
+    "header": "---\ndescription: Web development guidelines for your project.\nglobs: *.html, *.css, *.scss\nalwaysApply: false\n---\n\n",
+    "file_pattern": "*.md"
+  },
+  {
+    "output": ".cursor/rules/004_database.mdc",
+    "source_dir": "rules/database",
+    "header": "---\ndescription: Database best practices and guidelines for your project.\nglobs: *.sql, *db*.py\nalwaysApply: false\n---\n\n",
+    "file_pattern": "*.md"
+  }
+] 
